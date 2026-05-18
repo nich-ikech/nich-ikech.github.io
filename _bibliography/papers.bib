@@ -3,21 +3,6 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{nichols2025right,
-  abbr={DORI},
-  title={Right side up? disentangling orientation understanding in mllms with fine-grained multi-axis perception tasks},
-  author={Nichols, Keanu and Tasnim, Nazia and Yan, Yuting and Ikechukwu, Nicholas and Zou, Elva and Ghadiyaram, Deepti and Plummer, Bryan A},
-  journal={arXiv preprint arXiv:2505.21649},
-  year={2025},
-  url={https://arxiv.org/pdf/2505.21649},
-  abstract={Object orientation understanding represents a fundamental challenge in visual perception critical for applications like robotic manipulation and augmented reality. Current vision-language benchmarks fail to isolate this capability, often conflating it with positional relationships and general scene understanding. We introduce DORI (Discriminative Orientation Reasoning Intelligence), a comprehensive benchmark establishing object orientation perception as a primary evaluation target. DORI assesses four dimensions of orientation comprehension: frontal alignment, rotational transformations, relative directional relationships, and canonical orientation understanding. Through carefully curated tasks from 11 datasets spanning 67 object categories across synthetic and real-world scenarios, DORI provides insights on how multi-modal systems understand object orientations. Our evaluation of 15 state-of-the-art vision-language models reveals critical limitations: even the best models achieve only 54.2% accuracy on coarse tasks and 33.0% on granular orientation judgments, with performance deteriorating for tasks requiring reference frame shifts or compound rotations. These findings demonstrate the need for dedicated orientation representation mechanisms, as models show systematic inability to perform precise angular estimations, track orientation changes across viewpoints, and understand compound rotations - suggesting limitations in their internal 3D spatial representations. As the first diagnostic framework specifically designed for orientation awareness in multimodal systems, DORI offers implications for improving robotic control, 3D scene reconstruction, and human-AI interaction in physical environments},
-  eprint={2505.21649},
-  primaryClass={cs.CV},
-  selected={true},
-  preview={dori.png}
-}
-
-
 @article{okey2026integrating,
   abbr={QML.6G},
   title={Integrating Quantum Computing and Machine Learning in 6G Networks},
@@ -30,3 +15,36 @@
   abstract={The sixth-generation (6G) wireless networks are anticipated to have a transformative impact on communication methods, facilitating high-speed data transfer rates, extensive connectivity, and applications with minimal latency. The escalating intricacy and magnitude of 6G networks present noteworthy obstacles for conventional computing paradigms. In order to tackle these obstacles, the integration of quantum computing (QC) and machine learning (ML) methodologies within the framework of 6G networks is needed to improve its robustness and handle issues relating to resource allocation, bandwidth, and spectrum management. This chapter provides a thorough examination of the latest advancements in the field of fusing QC and ML to cater to the requirements of 6G technology. We highlight and discuss how quantum computing's unique features, like superposition and entanglement, could improve the effectiveness of machine learning algorithms in the context of 6G networks. Additionally, this study explores the utilization of quantum machine learning (QML) techniques within the confines of 6G, aimed at improving the dynamics required to meet the sophisticated architecture of 6G. On top of the foregoing, we explore in detail the security implications and frameworks for implementing QML in 6G networks. Quantum cryptography methods, exemplified by quantum key distribution, offer heightened protection against unauthorized access and data breaches, thereby safeguarding the confidentiality and integrity of data conveyed through 6G networks. Ultimately, the benefits of QML and a roadmap outlining potential avenues for future research in this nascent field are presented. The study highlights the importance of the creation of quantum computing architectures that are both scalable and fault-tolerant, as well as the development of QML algorithms, which are optimized for 6G networks. The findings of this research are robust and enable students to gain in-depth knowledge of the concept of QML and assist in further research.}
   
 }
+
+
+@misc{tasnim2026seeingisntorientingcognitively,
+    abbr={DORI},
+    title={Seeing Isn't Orienting: A Cognitively Grounded Benchmark Reveals Systematic Orientation Failures in MLLMs Supplementary},
+    author={Tasnim, Nazia and Nichols, Keanu and Yang, Yuting and Ikechukwu, Nicholas and Zou, Elva and Ghadiyaram, Deepti and Plummer, Bryan A},
+    year={2026},
+    abstract={Humans develop object orientation understanding progressively, from recognizing which way an object faces, to mentally rotating it, to reasoning about how multiple objects are oriented relative to each other. Yet current vision-language benchmarks treat orientation as an afterthought, conflating it with positional relationships and general scene understanding. We introduce Discriminative Orientation Reasoning Intelligence (DORI), a cognitively grounded hierarchical benchmark that establishes object orientation as the primary evaluation target. Building on stages of human orientation cognition, DORI decomposes orientation into four dimensions, each assessed at both coarse (categorical) and granular (metric) levels. Built from 13,652 images across 14 sources, DORI yields 33,656 multiple-choice questions spanning 67 object categories in real-world and synthetic environments. Its coarse to-granular design isolates orientation from confounds such as object recognition difficulty, scene clutter, and linguistic ambiguity through bounding-box isolation, standardized spatial reference frames, and structured prompts. Our evaluation of 24 state-of-the-art vision-language models reveals a consistent pattern: models competent on general spatial benchmarks remain near-random on object-centric orientation tasks. Even the best models achieve only 54.2% on coarse and 45.0% on granular judgments, with the largest drops on compound rotations and inter object reference frame shifts. Large coarse-to-granular gaps further expose that models rely on categorical heuristics rather than geometric reasoning, a limitation invisible to existing benchmarks. These findings establish orientation understanding as an unsolved challenge in multimodal systems, with direct implications for robotic manipulation, 3D scene reconstruction, and human-AI interaction},
+    eprint={2505.21649},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2505.21649}, 
+    journal={arXiv preprint arXiv:2505.21649},
+    selected={true},
+    preview={dori.png}
+}
+
+@article{ikechukwu2026futcr,
+  abbr={FuTCR},
+  title={FuTCR: Future-Targeted Contrast and Repulsion for Continual Panoptic Segmentation},
+  author={Ikechukwu, Nicholas and Nichols, Keanu and Ghadiyaram, Deepti and Plummer, Bryan A},
+  journal={arXiv preprint arXiv:2605.12451},
+  year={2026},
+  abstract={Continual Panoptic Segmentation (CPS) requires methods that can quickly adapt to new categories over time. The nature of this dense prediction task means that training images may contain a mix of labeled and unlabeled objects. As nothing is known about these unlabeled objects a priori, existing methods often simply group any unlabeled pixel into a single "background" class during training. In effect, during training, they repeatedly tell the model that all the different background categories are the same (even when they aren't). This makes learning to identify different background categories as they are added challenging since these new categories may require using information the model was previously told was unimportant and ignored. Thus, we propose a Future-Targeted Contrastive and Repulsive (FuTCR) framework that addresses this limitation by restructuring representations before new classes are introduced. FuTCR first discovers confident future-like regions by grouping model-predicted masks whose pixels are consistently classified as background but exhibit non-background logits. Next, FuTCR applies pixel-to-region contrast to build coherent prototypes from these unlabeled regions, while simultaneously repelling background features away from known-class prototypes to explicitly reserve representational space for future categories. Experiments across six CPS settings and a range of dataset sizes show FuTCR improves relative new-class panoptic quality over the state-of-the-art by up to 28%, while preserving or improving base-class performance with gains up to 4%.},
+  eprint={2605.12451},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2605.12451},
+  selected={true},
+  preview={FuTCR.png}
+}
+
+

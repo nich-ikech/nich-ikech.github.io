@@ -109,18 +109,25 @@
 
   "publications": [
     {
-      "name": "Right side up? disentangling orientation understanding in mllms with fine-grained multi-axis perception tasks",
-      "publisher": "arXiv",
-      "releaseDate": "2025-5-27",
-      "url": "https://arxiv.org/abs/2505.21649",
-      "summary": " We introduce DORI (Discriminative Orientation Reasoning Intelligence), a comprehensive benchmark establishing object orientation perception as a primary evaluation target. DORI assesses four dimensions of orientation comprehension: frontal alignment, rotational transformations, relative directional relationships, and canonical orientation understanding. "
-    },
-    {
       "name": "Integrating Quantum Computing and Machine Learning in 6G Networks",
       "publisher": "John Wiley & Sons, Inc.",
       "releaseDate": "2026-01-20",
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781394238118.ch13",
       "summary": "A thorough examination of the latest advancements in the field of fusing QC and ML to cater to the requirements of 6G technology. "
+    },
+    {
+      "name": "Seeing Isn't Orienting: A Cognitively Grounded Benchmark Reveals Systematic Orientation Failures in MLLMs Supplementary",
+      "publisher": "arXiv",
+      "releaseDate": "2026-04-26",
+      "url": "https://arxiv.org/abs/2505.21649",
+      "summary": " We introduce DORI (Discriminative Orientation Reasoning Intelligence), a comprehensive benchmark establishing object orientation perception as a primary evaluation target. DORI assesses four dimensions of orientation comprehension: frontal alignment, rotational transformations, relative directional relationships, and canonical orientation understanding. "
+    },
+    {
+      "name": "FuTCR: Future-Targeted Contrast and Repulsion for Continual Panoptic Segmentation",
+      "publisher": "arXiv",
+      "releaseDate": "2026-05-12",
+      "url": "https://arxiv.org/abs/2605.12451",
+      "summary": "FuTCR directly addresses the tendency of standard protocols to absorb unlabeled future-class regions into background or known-class decision regions by discovering future-like regions from model predictions, organizing them via pixel-to-region contrast, and repelling them from known-class prototypes."
     }
   
   ],

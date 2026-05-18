@@ -1,11 +1,11 @@
 ---
 layout: post # title: A long announcement with details
-date: 2025-12-21 16:00:00-0400
+date: 2026-05-8 16:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Completed two semesters as a Teaching Fellow for CS440 (AI Course)
+Completed three semesters as a Teaching Fellow for CS440 (AI Course)
 
 <!-- 
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
