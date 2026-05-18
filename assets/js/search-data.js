@@ -43,8 +43,8 @@ ninja.data = [{
           section: "News",},{id: "news-completed-three-semesters-as-a-teaching-fellow-for-cs440-ai-course",
           title: 'Completed three semesters as a Teaching Fellow for CS440 (AI Course)',
           description: "",
-          section: "News",},{id: "news-new-paper-out-read-online-here-arxiv-amp-lt-layout-post-title-presented-my-first-talk-at-the-air-seminar-at-bu-date-2026-01-20-14-00-00-0400-inline-false-related-posts-false-event-air-seminar-venue-duan-family-center-for-computing-amp-amp-data-sciences-boston-university-boston-ma-title-divergence-under-overlap-shifts-stability-plasticity-drift-in-query-based-vts-for-continual-panoptic-segmentation-abstract-continual-panoptic-segmentation-is-commonly-evaluated-under-a-single-fixed-task-partition-which-obscures-model-behavior-under-realistic-distribution-shifts-this-talk-introduces-a-family-of-controlled-image-class-overlap-regimes-that-systematically-vary-both-sample-and-label-level-overlap-between-incremental-tasks-for-query-based-vision-transformers-built-on-mask2former-style-architectures-within-this-framework-we-compare-some-continual-panoptic-segmentation-methods-and-show-that-some-exhibit-pronounced-divergence-and-stability-plasticity-drift-under-overlap-shifts-whereas-alternative-architectures-remain-substantially-more-stable-i-will-present-initial-quantitative-evidence-of-this-behavior-across-overlap-settings-and-outline-an-ongoing-component-level-analysis-aimed-at-identifying-which-architectural-mechanisms-primarily-drive-overlap-sensitivity-with-the-broader-goal-of-informing-more-robust-continual-segmentation-designs-amp-gt",
-          title: 'New paper out! Read (online) here: ArXiv: &amp;amp;lt;!– layout: post title: Presented my...',
+          section: "News",},{id: "news-freshly-baked-paper-out-read-online-here-arxiv",
+          title: 'Freshly-baked paper out! Read (online) here: ArXiv:',
           description: "",
           section: "News",},{id: "projects-tech1m",
           title: 'Tech1M',
@@ -95,7 +95,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/nicholas_ikechukwu_cv_2026.pdf", "_blank");
+          window.open("/assets/pdf/nicholas_ikechukwu_cv_2026-5-18.pdf", "_blank");
         },
       },{
         id: 'social-github',
