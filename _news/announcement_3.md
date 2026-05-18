@@ -4,7 +4,8 @@ date: 2026-05-12 11:59:00-0400
 inline: true
 related_posts: false
 ---
-New paper out! Read (online) here: <a href="https://arxiv.org/abs/2605.12451">ArXiv</a>:
+Freshly-baked paper out! Read (online) here: <a href="https://arxiv.org/abs/2605.12451">ArXiv</a>:
+
 <!-- 
 
 layout: post
