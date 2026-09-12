@@ -6,7 +6,7 @@
     "email": "ncholas@bu.edu",
     "phone": " (617) 353-8919 (BU CS)",
     "url": "https://www.bu.edu/cs/profiles/nicholas-ikechukwu/",
-    "summary": "CS PhD student at Boston University working at the intersection of computer vision, machine learning, and robotics, with a focus on long-term visual perception for autonomous/intelligent systems",
+    "summary": "CS PhD student at Boston University working at the intersection of computer vision, machine learning, and perception, with a focus on long-term visual perception",
     "location": {
       "address": "665 Commonwealth Ave",
       "postalCode": "MA 02135",
@@ -54,10 +54,19 @@
   "work": [
     {
       "name": "Boston University",
+      "position": "ML Teaching Fellow",
+      "url": "https://www.bu.edu/academics/cas/courses/cas-cs-440/",
+      "startDate": "2026-09-02",
+      "endDate": "",
+      "summary": "Teaching at CS Laboratory, Conducting Office Hours, Grading",
+      "highlights": ["Applied Machine Learning", "Computer Vision"]
+    },
+    {
+      "name": "Boston University",
       "position": "AI Teaching Fellow",
       "url": "https://www.bu.edu/academics/cas/courses/cas-cs-440/",
       "startDate": "2025-01-01",
-      "endDate": "-",
+      "endDate": "2025-05-01",
       "summary": "Teaching at CS Laboratory, Conducting Office Hours, Grading",
       "highlights": ["Artificial Intelligence", "Machine Learning", "Reinforcement Learning"]
     },
@@ -160,15 +169,15 @@
   ],
   "interests": [
     {
-      "name": "Computer Vision, Machine Learning, and Robotics",
+      "name": "Computer Vision, Machine Learning, and Perception",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Visual Perception",
-        "Query-based Vison Models",
+        "Orientation Understanding",
         "Continual Panoptic Segmentation",
-        "Robot Learning",
-        "Robotic Vision"
+        "Autonomous Vison & Learning",
+        "Instance-level 4D forcasting"
       ]
     }
   ],

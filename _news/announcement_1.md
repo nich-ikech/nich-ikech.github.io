@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-05-22 11:59:00-0400
+date: 2026-06-18 11:59:00-0400
 inline: true
 related_posts: false
 ---
-Co-authored my second paper! Read (online) here: <a href="https://arxiv.org/abs/2505.21649">ArXiv</a>:
+Co-authored paper, <a href="https://eccv.ecva.net/virtual/2026/poster/5553">DORI</a> is accepted at ECCV 2026!:
 
