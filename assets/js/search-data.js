@@ -37,14 +37,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "news-co-authored-my-second-paper-read-online-here-arxiv",
-          title: 'Co-authored my second paper! Read (online) here: ArXiv:',
-          description: "",
-          section: "News",},{id: "news-completed-three-semesters-as-a-teaching-fellow-for-cs440-ai-course",
+        },{id: "news-completed-three-semesters-as-a-teaching-fellow-for-cs440-ai-course",
           title: 'Completed three semesters as a Teaching Fellow for CS440 (AI Course)',
           description: "",
           section: "News",},{id: "news-freshly-baked-paper-out-read-online-here-arxiv",
           title: 'Freshly-baked paper out! Read (online) here: ArXiv:',
+          description: "",
+          section: "News",},{id: "news-co-authored-paper-dori-is-accepted-at-eccv-2026",
+          title: 'Co-authored paper, DORI is accepted at ECCV 2026!:',
           description: "",
           section: "News",},{id: "projects-tech1m",
           title: 'Tech1M',
