@@ -95,7 +95,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/nicholas_ikechukwu_cv_2026-5-18.pdf", "_blank");
+          window.open("/assets/pdf/nicholas_ikechukwu_cv_2026-9-12.pdf", "_blank");
         },
       },{
         id: 'social-github',
