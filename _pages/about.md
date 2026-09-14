@@ -28,9 +28,9 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a CS PhD student at Boston University, co-advised by Profs. <a href='https://bryanplummer.com'>Bryan Plummer</a> and <a href='https://deeptigp.github.io/'>Deepti Ghadiyaram</a>. My research interests sit at the crossroads of Computer Vision, Machine Learning, and Perception. I study whether vision models truly understand how the world is arranged and how it changes over time. The long-term goal is robust perception for mobile robots and autonomous systems that can remember, adapt, and act over time. With a background in Computer Engineering and prior industry experience building AI-driven software across diverse applications, I enjoy bringing a practical lens to theoretically grounded research.
+I am a CS PhD student at Boston University, previously co-advised by Profs. <a href='https://bryanplummer.com'>Bryan Plummer</a> and <a href='https://deeptigp.github.io/'>Deepti Ghadiyaram</a>. With Bryan transitioning to a new position, I'm now looking for a new advisor whose research is a closer fit for my current direction. My research interests are in Computer Vision and Machine Learning. I study whether vision models truly understand how the world is arranged and how it changes over time. The long-term goal is robust perception for mobile robots and autonomous systems that can remember, adapt, and act over time. With a background in Computer Engineering and prior industry experience building AI-driven software across diverse applications, I enjoy bringing a practical lens to theoretically grounded research.
 
-As a Teaching Fellow at BU, I also enjoy the rare privilege of talking about what I love, supporting and guiding students through AI, Machine Learning, and Reinforcement Learning while discovering that teaching often reveals insights research alone cannot. 
+As a Teaching Fellow at BU (currently with <a href='https://deeptigp.github.io/'>Deepti Ghadiyaram</a>), I enjoy supporting students through AI, Machine Learning, and Reinforcement Learning as teaching often reveals insights research alone doesn't.
 
 Outside the lab and classroom, I unwind at the piano, experiment with delightfully unpolished art, explore the city by bike, and find clarity at the gym.
 
