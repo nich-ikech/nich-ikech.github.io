@@ -61,6 +61,11 @@ ninja.data = [{
           description: "Comprehensive tools for using and maintaining their cookware, including recipe videos",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "teachings-applied-machine-learning",
+          title: 'Applied Machine Learning',
+          description: "Undergraduate Prerequisites CS111 (CS112 recommended); CS132 or MA242 (or EK103); CS237 or MA581 ( or EK381.) CS365 is recommended. - Covers practical skills in machine learning including techniques for clustering, classification, regression, feature selection, and model compression. Emphasizes hands-on application of methods via programming on real- world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/applied_machine_learning_fall_2026/";
             },},{id: "teachings-artificial-intelligence",
           title: 'Artificial Intelligence',
           description: "Undergraduate Prerequisites (CASCS112 &amp; CASCS132) - Introduction to computer systems that exhibit intelligent behavior, in particular, perceptual and robotic systems. Topics include human computer interfaces, computer vision, robotics, game playing, pattern recognition, knowledge representation, planning.",
